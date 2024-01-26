@@ -1,13 +1,16 @@
 import "./App.css";
 import React, { Fragment } from "react";
 import MainHeader from "./components/Layout/MainHeader";
-import SummaryCard from "./components/Layout/SummaryCard";
+import Meals from "./components/Meals/Meals";
+
 
 function App() {
   return (
     <Fragment>
       <MainHeader></MainHeader>
-      <SummaryCard></SummaryCard>
+      <main>
+        <Meals></Meals>
+      </main>
     </Fragment>
   );
 }
