@@ -1,0 +1,15 @@
+.summarycard {
+  position: fixed;
+  background: #363232;
+  width: 40rem;
+  top: 30vh;
+  left: 30%;
+  padding: 1rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  position: fixed;
+  width: 40%;
+  z-index: 100;
+  color: white;
+  text-align: center;
+}
