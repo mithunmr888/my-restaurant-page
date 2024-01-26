@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MainHeader from './components/Layout/MainHeader';
 
 function App() {
   return (
-    <h1>hey</h1>
+    <MainHeader></MainHeader>
   );
 }
 
