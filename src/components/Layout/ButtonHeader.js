@@ -3,10 +3,12 @@ import CartIcon from "../Cart/CartIcon";
 
 const ButtonHeader = (props) => {
   return (
-    <button className={classes.button} >
-      <span className={classes.icon} ><CartIcon></CartIcon></span>
+    <button className={classes.button} onClick={props.onClickBtn}>
+      <span className={classes.icon}>
+        <CartIcon></CartIcon>
+      </span>
       <span>Your Cart</span>
-      <span className={classes.badge} >3</span>
+      <span className={classes.badge}>3</span>
     </button>
   );
 };
